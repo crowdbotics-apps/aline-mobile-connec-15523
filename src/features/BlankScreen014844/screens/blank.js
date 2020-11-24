@@ -27,7 +27,9 @@ export default class Blank extends React.Component {
 
   render = () => (
     <View>
-      <Text>Hello! There are two custom connectors in this application.</Text>
+      <Text style={styles.Text_3}>
+        Hello! There are two custom connectors in this application.
+      </Text>
       <Button
         title="Ok"
         style={styles.Button_5}
@@ -42,7 +44,11 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   View_1: {},
   Text_3: {},
+  Button_5: { width: 100, height: "0%", alignSelf: "center" },
+  View_1: {},
+  Text_3: { fontSize: 15, lineHeight: 20 },
   Button_5: { width: 100, height: "0%", alignSelf: "center" }
 })
